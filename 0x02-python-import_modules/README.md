@@ -1,1 +1,1 @@
-import&module taskcompleted as requireds
+import&module taskcompleted as required
