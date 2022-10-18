@@ -1,1 +1,1 @@
-This is my python project repository
+This is my high level  project repository
