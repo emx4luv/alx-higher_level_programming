@@ -1,1 +1,1 @@
-0x06-python-classes tasks
+0x06-python-classes tasks completed
