@@ -1,15 +1,18 @@
 #!/usr/bin/python3
-"""
-This module prints text with 2 newlines after
-character - . ? :
+"""Module to find the max integer in a list
 """
 
 
-def text_indentation(text):
+def max_integer(list=[]):
+    """Function to find and return the max integer in a list of integers
+        If the list is empty, the function returns None
     """
-    function to print text and 2 newlines
-    """
-    if text is None or not isinstance(text, str) or len(text) < 0:
-        raise TypeError('text must be a string')
-    string = "".join([a if a not in ".?:" else a + "\n\n" for a in text])
-    print("\n".join([x.strip() for x in string.split("\n")]), end="")
+    if len(list) == 0:
+        return None
+    result = list[0]
+    i = 1
+    while i < len(list):
+        if list[i] > result:
+            result = list[i]
+        i += 1
+    return result
