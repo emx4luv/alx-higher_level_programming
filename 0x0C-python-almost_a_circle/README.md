@@ -20,4 +20,4 @@
 - Update the class Base by adding the class method def save_to_file(cls, list_objs): that writes the JSON string representation of list_objs to a file
 - Update the class Base by adding the static method def from_json_string(json_string): that returns the list of the JSON string representation json_string
 - Update the class Base by adding the class method def create(cls, **dictionary): that returns an instance with all attributes already set
-- Update the class Base by adding the class method def load_from_file(cls): that returns a list of instances
+- Update the class Base by addn' the class method def load_from_file(cls): that returns a list of instances
